@@ -1,0 +1,445 @@
+body,ul,h2 
+{
+ padding: 0;
+ margin: 0;
+}
+ul 
+{
+ padding: 0;
+ margin: 0;
+ list-style: none;
+}
+li 
+{
+ list-style: none;
+}
+a 
+{
+ text-decoration: none;
+ color: #999999;
+}
+#fixed 
+{
+ width: 95px;
+ position: fixed;
+ left: 0;
+ top: 0;
+ border: 1px solid #dbdee1;
+ height: 1000px; /* 设置固定高度 */
+ overflow: hidden; 
+ /* 添加垂直滚动条 */
+}
+#fixed li 
+{
+
+ height: 55px;
+ line-height: 55px;
+ text-align: center;
+ font-size: 16px;
+ background-color: #eee;
+ color: #666;
+ 
+}
+#fixed .cur 
+{
+ border-top: 1px solid #dbdee1;
+ border-bottom: 1px solid #dbdee1;
+ background-color: #fff;
+ margin-right: -1px;
+ width: 96px;
+}
+#fixed .cur 
+{
+ color: #f81818;
+}
+#main 
+{
+ margin-top: 14px;
+ /* 做大网页时去掉该属性 */
+ margin-left: 115px;
+ margin-bottom: 500px;
+}
+/* 任意定义.box里内容的样子，此处为示例。 */
+/* div.box{
+    width: 900px;
+} */
+.none
+{
+ display: none;
+}
+.box h2 
+{
+ font-size: 16px;
+ color: #666;;
+ text-align: left;
+ line-height: 34px;
+ margin-bottom: 4px;
+}
+.box ul 
+{
+ background: linear-gradient(90deg, #fff, #fff);
+ height: auto;
+}
+.jingxiRecommended
+{
+ display: flex;
+ flex-wrap: wrap;
+ margin: 3px 0;
+}
+#d
+{
+ width: 33%;
+ height: 30%;
+ border: none;
+ background-color: #fff;
+}
+.jingxiRecommended>li
+{
+ width: 30%;
+ height: 100px;
+ flex-grow: 2;
+}
+.jingxiRecommended img
+{
+ width: 95%;
+ height: 100%;
+ display: block;
+ border: none;
+ overflow: hidden;
+ background-color: #fff;
+}
+.jingxiRecommended h2
+{
+ font-size: 14px;
+ line-height: 28px;
+ text-align: center;
+ color: #666;
+ background-color: #fff;
+}
+.womenswear
+{
+ display: flex;
+ flex-wrap: wrap;
+ margin: 3px 0;
+}
+.womenswear>li
+{
+ width: 30%;
+ height: 100px;
+ flex-grow: 2;
+}
+.womenswear img
+{
+ width: 95%;
+ height: 100%;
+ display: block;
+ border: none;
+ overflow: hidden;
+ background-color: #fff;
+}
+.womenswear h2
+{
+ font-size: 14px;
+ line-height: 28px;
+ text-align: center; 
+ color: #666;
+ background-color: #fff;
+}
+.blouse
+{
+ display: flex;
+ flex-wrap: wrap;
+ margin: 3px 0;
+}
+.blouse>li
+{
+ width: 30%;
+ height: 100px;
+ flex-grow: 2;
+}
+.blouse img
+{
+ width: 95%;
+ height: 100%;
+ display: block;
+ border: none;
+ overflow: hidden;
+ background-color: #fff;
+}
+.blouse h2
+{
+ font-size: 14px;
+ line-height: 28px;
+ text-align: center; 
+ color: #666;
+ background-color: #fff;
+}
+.fashionSkirt
+{
+ display: flex;
+ flex-wrap: wrap;
+ margin: 3px 0;
+}
+.fashionSkirt>li
+{
+ width: 30%;
+ height: 100px;
+ flex-grow: 2;
+}
+.fashionSkirt img
+{
+ width: 95%;
+ height: 100%;
+ display: block;
+ border: none;
+ overflow: hidden;
+ background-color: #fff;
+}
+.fashionSkirt h2
+{
+ font-size: 14px;
+ line-height: 28px;
+ text-align: center; 
+ color: #666;
+ background-color: #fff;
+}
+.ladysTrousers
+{
+ display: flex;
+ flex-wrap: wrap;
+ margin: 3px 0;
+}
+.ladysTrousers>li
+{
+ width: 30%;
+ height: 100px;
+ flex-grow: 2;
+}
+.ladysTrousers img
+{
+ width: 95%;
+ height: 100%;
+ display: block;
+ border: none;
+ overflow: hidden;
+ background-color: #fff;
+}
+.ladysTrousers h2
+{
+ font-size: 14px;
+ line-height: 28px;
+ text-align: center; 
+ color: #666;
+ background-color: #fff;
+}
+.sockLeggings
+{
+ display: flex;
+ flex-wrap: wrap;
+ margin: 3px 0;
+}
+.sockLeggings>li
+{
+ width: 30%;
+ height: 100px;
+ flex-grow: 2;
+}
+.sockLeggings img
+{
+ width: 95%;
+ height: 100%;
+ display: block;
+ border: none;
+ overflow: hidden;
+ background-color: #fff;
+}
+.sockLeggings h2
+{
+ font-size: 14px;
+ line-height: 28px;
+ text-align: center; 
+ color: #666;
+ background-color: #fff;
+}
+.ladiesCoat
+{
+ display: flex;
+ flex-wrap: wrap;
+ margin: 3px 0;
+}
+.ladiesCoat>li
+{
+ width: 30%;
+ height: 100px;
+ flex-grow: 2;
+}
+.ladiesCoat img
+{
+ width: 95%;
+ height: 100%;
+ display: block;
+ border: none;
+ overflow: hidden;
+ background-color: #fff;
+}
+.ladiesCoat h2
+{
+ font-size: 14px;
+ line-height: 28px;
+ text-align: center; 
+ color: #666;
+ background-color: #fff;
+}
+.womensDress
+{
+ display: flex;
+ flex-wrap: wrap;
+ margin: 3px 0;
+}
+.womensDress>li
+{
+ width: 30%;
+ height: 100px;
+ flex-grow: 2;
+}
+.womensDress img
+{
+ width: 95%;
+ height: 100%;
+ display: block;
+ border: none;
+ overflow: hidden;
+ background-color: #fff;
+}
+.womensDress h2
+{
+ font-size: 14px;
+ line-height: 28px;
+ text-align: center; 
+ color: #666;
+ background-color: #fff;
+}
+.underwear
+{
+ display: flex;
+ flex-wrap: wrap;
+ margin: 3px 0;
+}
+.underwear>li
+{
+ width: 30%;
+ height: 100px;
+ flex-grow: 2;
+}
+.underwear img
+{
+ width: 95%;
+ height: 100%;
+ display: block;
+ border: none;
+ overflow: hidden;
+ background-color: #fff;
+}
+.underwear h2
+{
+ font-size: 14px;
+ line-height: 28px;
+ text-align: center; 
+ color: #666;
+ background-color: #fff;
+}
+.ladyParts
+{
+ display: flex;
+ flex-wrap: wrap;
+ margin: 3px 0;
+}
+.ladyParts>li
+{
+ width: 30%;
+ height: 100px;
+ flex-grow: 2;
+}
+.ladyParts img
+{
+ width: 95%;
+ height: 100%;
+ display: block;
+ border: none;
+ overflow: hidden;
+ background-color: #fff;
+}
+.ladyParts h2
+{
+ font-size: 14px;
+ line-height: 28px;
+ text-align: center; 
+ color: #666;
+ background-color: #fff;
+}
+             ul
+             {
+              list-style: none;
+             }
+             body
+             {
+              margin-bottom: 50px;
+             }
+             ul,p,body
+             {
+              padding: 0;
+              margin: 0;
+             }
+             .bnav
+             {
+              position: fixed;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              z-index: 9;
+              background-color: #fff;/* 必须有，没有设为#fff */
+             }
+             .bnav>ul
+             {
+              display: flex;
+             }
+             .bnav li
+             {
+              width: 25%;
+              display: flex;
+              justify-content: center;
+             }
+             .bnav div
+             {
+              position: relative;
+             }
+             .bnav svg
+             {
+              font-size: 40px;
+              margin: -3px 30px;
+             }
+             .bnav p
+             {
+              font-size: 10px;
+              line-height: 27px;
+              color: #a3a3a3;
+              text-align: center;
+             }
+             .icon
+             {
+              width: 0.5em;
+              height: 0.5em;
+              vertical-align: -0.15em;
+              fill: currentColor;
+              overflow: hidden;
+             }
+             .dot
+             {
+              width: 5px;
+              height: 5px;
+              border-radius: 5px;
+              position: absolute;
+              right: 28px;
+              top: 4px;
+              background-color: #c00;
+             }

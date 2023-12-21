@@ -1,0 +1,142 @@
+body,p
+{
+ padding: 0;
+ margin: 0;
+}
+#header
+{ 
+ display: flex;
+ background-color: #fff;
+ padding: 7px 11px;
+ position: relative;
+ width: 82%;
+}
+.search
+{
+ background-color: #f6f6f6;
+ border-radius: 15px;
+ flex-grow: 1;
+ display: flex;
+ align-items: center;
+ height: 31px;
+}
+.search>span
+{
+ font-size: 14px;
+ margin: 0 2px;
+}
+#search
+{
+ width: 100%;
+ flex-grow: 2;
+ border: none;
+ margin-right: 3px;
+ height: 23px;
+ border-radius: 15px;
+ font-size: 15px;
+ padding-left: 1.2rem;
+ background-color: #f6f6f6;
+}
+.s
+{
+ height: 33px;
+ font-size: 16px;
+ color: #696969;
+ text-align: center;
+ overflow: hidden;
+ transform: translateX(-220%);
+ margin-top: 3%;
+}
+.btn
+{
+ background-color: #fff;
+ border-radius: 15px;
+ display: flex;
+ align-items: center; 
+ width: 100%;
+ height: auto;
+ position: absolute;
+ left: 98%;
+ transform: translateY(5px);
+}
+.btn>span
+{
+ font-size: 14px;
+ margin: 0 15px;
+}
+.btn a
+{
+ color: #333333;
+ text-decoration: none;
+}
+.box
+{
+ width: 100%;
+ height: auto;
+ position: relative;
+}
+.box>span.no1
+{
+ font-size: 90%;
+ color: #696969;
+ position: absolute;
+ margin-left: 2.3%;
+ margin-top: 2%;
+}
+.box>button
+{
+ font-size: 90%;
+ color: #696969;
+ position: absolute;
+ margin-left: 75%;
+ margin-top: 1.3%;
+ outline: auto #fff;
+}
+.box>span.no3
+{
+ font-size: 90%;
+ color: #696969;
+ position: absolute;
+ margin-left: 85%;
+ margin-top: 2%;
+}
+.box>span.no4
+{
+ font-size: 90%;
+ color: #696969;
+ position: absolute;
+ margin-left: 87%;
+ margin-top: 2%;
+}
+.box2
+{
+ display: block;
+ margin-top: 11%;
+}
+.tags
+{
+ width: 90%;
+ margin-left: -10px;
+ 
+}
+::marker
+{
+ color: #fff;
+ margin-left: 100px;
+}
+.keyword
+{
+ width: 100%;
+ margin: 0 15px 15px 0;
+ color: #333;
+ font-size: 14px;
+}
+.keyword span
+{
+ line-height: 50px;
+ padding: 0 13px;
+ border-radius: 20%;
+ background-color: #f6f6f6;
+ text-align: center;
+ margin: 7px;
+}

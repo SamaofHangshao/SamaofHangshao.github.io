@@ -1,0 +1,35 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,form,dl,dd,dt
+{
+ padding: 0;
+ margin: 0;
+}
+ul,li
+{
+ list-style: none;
+}
+a
+{
+ text-decoration: none;
+ color: #000;
+}
+a:visited
+{
+ color: #000;
+}
+img
+{
+ border: none;
+ display: block;
+}
+/* 姜芑行的移动端css */
+body
+{
+ min-width: 320px;
+ margin: 0 auto;
+ overflow-x: hidden;
+}
+:root
+{
+ font-size: 5.6vw;
+ /* rem */
+}
